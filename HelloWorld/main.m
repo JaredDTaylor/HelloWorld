@@ -8,10 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
+int work(){
+    int x=5;
+    x=10;
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Hello, Jared!");
     }
     return 0;
+}
+
+int main(int argc, const char * argv[]) {
+    return work();
 }
