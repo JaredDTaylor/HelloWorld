@@ -13,11 +13,11 @@ int work(){
     x=10;
     @autoreleasepool {
         // insert code here...
-        if (x==10) {
+        if (x==12) {
             NSLog(@"%i",x);
         }else{
             
-        NSLog(@"Hello, Jared!");
+        NSLog(@"Hello, Batman!");
     }
     }
     return 0;
