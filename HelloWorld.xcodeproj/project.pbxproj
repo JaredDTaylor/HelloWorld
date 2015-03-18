@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17FBF8231AB72BE8004A47A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FBF8221AB72BE8004A47A7 /* main.m */; };
+		17FBF82A1AB87EB9004A47A7 /* stuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FBF8291AB87EB9004A47A7 /* stuff.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		17FBF81F1AB72BE8004A47A7 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
-		17FBF8221AB72BE8004A47A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17FBF8221AB72BE8004A47A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		17FBF8291AB87EB9004A47A7 /* stuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stuff.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				17FBF8221AB72BE8004A47A7 /* main.m */,
+				17FBF8291AB87EB9004A47A7 /* stuff.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FBF82A1AB87EB9004A47A7 /* stuff.m in Sources */,
 				17FBF8231AB72BE8004A47A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +236,7 @@
 				17FBF8281AB72BE8004A47A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
